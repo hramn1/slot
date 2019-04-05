@@ -8,22 +8,37 @@
   <title>Слот</title>
 </head>
 <body>
+
   <div class="wrapper">
+      <h1 class="wrap-title">Мега розыгрыш призов</h1>
+      <img src="img/logotype.png" alt="" class="wrap-logo">
   <div class="cube-wrap">
     <div class="cube">
       <div class="face face--back">
-        <h2>сторона1</h2>
+        <div class="face__inner">
+          <h2>ID Партнера: <span class="user-id">435456</span></h2>
+        </div>
       </div>
       <div class="face face--front">
-        <h2 id="winId">сторона2</h2>
+        <div class="face__inner">
+          <h2 >ID Партнера: <span id="winId" class="user-id">456743</span></h2>
+        </div>
       </div>
      <div class="face face--down">
-        <h2>сторона3</h2>
+         <div class="face__inner">
+          <h2>ID Партнера:  <span class="user-id">674324</span></h2>
+        </div>
       </div>
       <div class="face face--up">
-        <h2>сторона4</h2>
+        <div class="face__inner">
+          <h2>ID Партнера: <span class="user-id">543454</span></h2>
+        </div>
       </div>
     </div>
+  </div>
+  <div class="winner">
+    <p class="winner__adress"></p>
+    <p class="winner__name"></p>
   </div>
   <button type="button" name="button" class="btn btn--spin">Вращать</button>
   <button type="button" name="button" class="btn btn--stop">Остановить</button>
