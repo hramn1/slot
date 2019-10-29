@@ -92,7 +92,7 @@ body{
   animation-iteration-count: infinite;
   animation-duration: 4000ms;
   animation-timing-function: linear;
-  animation-fill-mode: both;
+  animation-fill-mode: forwards;
 }
 @keyframes spinX {
   0% {
